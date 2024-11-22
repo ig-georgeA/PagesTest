@@ -1,12 +1,12 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable } from 'rxjs';
-import { GlucoseType } from '../models/patient-dashboard/glucose-type';
-import { CholesterolHDLLDLType } from '../models/patient-dashboard/cholesterol-hdlldltype';
 import { TotalCholesterolType } from '../models/patient-dashboard/total-cholesterol-type';
-import { HeartRateType } from '../models/patient-dashboard/heart-rate-type';
+import { GlucoseType } from '../models/patient-dashboard/glucose-type';
 import { WeightType } from '../models/patient-dashboard/weight-type';
+import { HeartRateType } from '../models/patient-dashboard/heart-rate-type';
 import { BPSystolicDiastolicType } from '../models/patient-dashboard/bpsystolic-diastolic-type';
+import { CholesterolHDLLDLType } from '../models/patient-dashboard/cholesterol-hdlldltype';
 import { ErrorHandlerService } from './error-handler.service';
 
 @Injectable({
